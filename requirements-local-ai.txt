@@ -1,0 +1,6 @@
+# Isolated Python 3.10 environment; CPU wheels for this laptop.
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.49.0
+accelerate==1.4.0
+Pillow==11.2.1

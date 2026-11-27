@@ -1,0 +1,2 @@
+# Optional free discovery library. Install in .venv-local-ai, not the main app environment.
+python-jobspy

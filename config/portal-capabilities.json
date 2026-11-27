@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "portals": {
+    "google_jobs": {"displayName": "Google Jobs", "mode": "manual_search", "application": "manual_only"},
+    "naukri": {"displayName": "Naukri", "mode": "portal", "application": "review_until_validated"},
+    "wellfound": {"displayName": "Wellfound", "mode": "portal", "application": "review_until_validated"},
+    "instahyre": {"displayName": "Instahyre", "mode": "portal", "application": "review_until_validated"},
+    "hirist": {"displayName": "Hirist.tech", "mode": "portal", "application": "redirect_or_handoff"},
+    "trueup": {"displayName": "TrueUp", "mode": "lead", "application": "redirect_or_handoff"},
+    "offcampus_jobs4u": {"displayName": "OffCampus Jobs 4U", "mode": "lead", "application": "redirect_or_handoff"},
+    "indeed": {"displayName": "Indeed", "mode": "lead", "application": "manual_only"},
+    "linkedin": {"displayName": "LinkedIn", "mode": "lead", "application": "manual_only"},
+    "greenhouse": {"displayName": "Greenhouse", "mode": "ats", "application": "autonomous_if_tested"},
+    "lever": {"displayName": "Lever", "mode": "ats", "application": "autonomous_if_tested"},
+    "ashby": {"displayName": "Ashby", "mode": "ats", "application": "autonomous_if_tested"},
+    "workday": {"displayName": "Workday", "mode": "ats", "application": "autonomous_if_tested"},
+    "smartrecruiters": {"displayName": "SmartRecruiters", "mode": "ats", "application": "review_until_validated"},
+    "icims": {"displayName": "iCIMS", "mode": "ats", "application": "review_until_validated"},
+    "taleo": {"displayName": "Taleo", "mode": "ats", "application": "review_until_validated"},
+    "oracle": {"displayName": "Oracle Cloud", "mode": "ats", "application": "review_until_validated"},
+    "teamtailor": {"displayName": "Teamtailor", "mode": "ats", "application": "review_until_validated"},
+    "jobvite": {"displayName": "Jobvite", "mode": "ats", "application": "review_until_validated"},
+    "workable": {"displayName": "Workable", "mode": "ats", "application": "review_until_validated"}
+  },
+  "rules": {
+    "neverInventAnswers": true,
+    "neverCountWithoutReceipt": true,
+    "neverRetryAfterSubmitCheckpoint": true,
+    "pauseOnCaptchaOrOtp": true,
+    "oneBrowserSubmissionAtATime": true
+  }
+}

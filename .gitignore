@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.test-deps/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Local configuration with candidate-specific data
+config/profile.json
+config/answers.json
+config/candidate-seed.json
+config/skills.json
+config/eligibility.json
+config/question-bank.json
+config/companies.json
+config/settings.json
+config/secrets.env
+.env
+.env.*
+!.env.example
+
+# Local data, browser state, and application evidence
+data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.pdf
+*.trace.zip
+*.har
+
+# Generated outputs and logs
+*.log
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.bak
+*.tmp

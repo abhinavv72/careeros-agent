@@ -1,0 +1,1 @@
+{"dailyTarget":10,"bulkBatchSize":5,"pauseBetweenApplicationsSeconds":30,"autoSubmit":false,"unattended":false,"skipBlockedApplications":true,"autoApplyMinimumScore":70,"allowedAutoSubmitAts":[],"llmEnabled":false,"maxConcurrentBrowsers":1}
