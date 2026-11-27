@@ -42,6 +42,8 @@ async def lifespan(app):
 
 
 app=FastAPI(title='Local Job Agent', docs_url=None, redoc_url=None, lifespan=lifespan)
+from agent_api import router as agent_router
+app.include_router(agent_router)
 _guard=threading.Lock()
 _active=None
 _process=None
